@@ -1,0 +1,8 @@
+# Default ignored files
+/../../TaskManager-API /.idea/shelf/
+/../../TaskManager-API /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../TaskManager-API /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../TaskManager-API /.idea/dataSources/
+/../../TaskManager-API /.idea/dataSources.local.xml
