@@ -6,7 +6,7 @@ class Task(models.Model):
     description = models.TextField(blank=True)
     file = models.FileField(upload_to='tasks/', blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    owner = models.CharField(max_length=50, verbose_name='name')
 
     def __str__(self):
         return self.title
